@@ -52,8 +52,8 @@ uuid：生成发票唯一ID
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ↓   
 &nbsp;&nbsp;&nbsp;&nbsp;返回结果列表 → 前端表格更新显示   
 
-点击查看原图 → 调用 backend.get_invoice_file(invoice_id)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓
-&nbsp;&nbsp;&nbsp;&nbsp;backend → sql.get_invoice_file() → 返回图片二进制
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓
-&nbsp;&nbsp;&nbsp;&nbsp;写入本地 & 显示图片
+点击查看原图 → 调用 backend.get_invoice_file(invoice_id)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓   
+&nbsp;&nbsp;&nbsp;&nbsp;backend → sql.get_invoice_file() → 返回图片二进制   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓   
+&nbsp;&nbsp;&nbsp;&nbsp;写入本地 & 显示图片   
